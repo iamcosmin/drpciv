@@ -317,10 +317,10 @@ packages:
     dependency: "direct main"
     description:
       name: teledart
-      sha256: "3d00dbbab7ab5cdaf793e9ef217f552b24d7e8e4236c241b4a2e5b7f91bdaad4"
+      sha256: "21541c1799b9351d7720d73fedfe1250af6738d50bd490ed88873bf24c001f57"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.3"
+    version: "0.4.0"
   term_glyph:
     dependency: transitive
     description:

@@ -14,4 +14,4 @@ dev_dependencies:
   test: ^1.21.0
 dependencies:
   dotenv: ^4.0.1
-  teledart: ^0.5.3
+  teledart: ^0.4.0

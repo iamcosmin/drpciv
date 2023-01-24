@@ -73,15 +73,15 @@ Future<void> main() async {
       B. ${question.answer2}
       C. ${question.answer3}
     
-Alege varianta corectă în sondajul de mai jos.''', parseMode: 'HTML');
+Alege varianta corectă în sondajul de mai jos.''', parse_mode: 'HTML');
     await Future.delayed(Duration(seconds: 1));
     if (question.correctAnswer.length < 2) {
       m.replyPoll(
         'Pot exista mai multe răspunsuri corecte...',
         ['A', 'B', 'C', 'AB', 'AC', 'BC', 'ABC'],
-        isAnonymous: false,
+        is_anonymous: false,
         type: 'quiz',
-        correctOptionId: convertAnswer(question.correctAnswer),
+        correct_option_id: convertAnswer(question.correctAnswer),
       );
     }
   });
