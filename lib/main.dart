@@ -45,7 +45,7 @@ Future<void> main() async {
   } else {
     print('[Secrets] Bot token not defined.');
   }
-  final token = env['TOKEN']!;
+  final token = String.fromEnvironment('TOKEN');
   final me = await Telegram(token).getMe();
   final bot = TeleDart(token, Event(me.username!));
   print('[Bot] Started successfully.');
