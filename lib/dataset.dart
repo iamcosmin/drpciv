@@ -16,7 +16,7 @@ class Question {
   final String correctAnswer;
 }
 
-final questionList = [
+const questionList = <Question>[
   Question(
     question:
         'Când este permisă trecerea la nivel cu o cale ferată fără bariere, prevăzută cu semnalizare luminoasă, dacă tocmai a trecut un tren?',
